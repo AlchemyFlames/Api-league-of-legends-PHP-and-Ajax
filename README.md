@@ -28,10 +28,10 @@ function preview($resposta){
     echo json_encode($resposta);
 }
 curl_close($ch);
-]
 
+]
 # Exemplo de chamado Ajax
-[
+
 $.ajax({
     url: '/* Page PHP */',                        
     type: 'post',
@@ -39,4 +39,3 @@ $.ajax({
         console.log(JSON.parse(response));
     }
   })
-]
