@@ -1,7 +1,7 @@
 # Projeto utilizando a API oficial da RIOT GAMES responsavel pelo jogo League of Legends
 # Exemplo de chamado PHP
 
-
+[
 $API_KEY = "/* Here your Riot key */";
 
 $url = 'https://br1.api.riotgames.com/tft/summoner/v1/summoners/by-name/'/* name in game */;
@@ -28,10 +28,10 @@ function preview($resposta){
     echo json_encode($resposta);
 }
 curl_close($ch);
-
+]
 
 # Exemplo de chamado Ajax
-
+[
 $.ajax({
     url: '/* Page PHP */',                        
     type: 'post',
@@ -39,4 +39,4 @@ $.ajax({
         console.log(JSON.parse(response));
     }
   })
-
+]
